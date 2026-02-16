@@ -193,4 +193,4 @@ A documentação Swagger está disponível em: http://localhost:5002/apidocs
 - `entregue` - Pedido entregue ao cliente
 - `cancelado` - Pedido cancelado
 
-🐢
+🐢🐢
