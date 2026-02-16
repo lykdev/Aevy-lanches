@@ -58,8 +58,8 @@ Siga os passos abaixo na ordem correta, pois o frontend depende do backend estar
 # 1. Clonar o Repositório
 
 ```bash
-git clone https://github.com/Recomece/Aevy.git
-cd Aevy
+git clone https://github.com/lykdev/Aevy-lanches.git
+cd Aevy-lanches
 ``` 
 
 # 2. Iniciar o Backend (MongoDB)
@@ -122,11 +122,11 @@ A documentação Swagger está disponível em: http://localhost:5002/apidocs
 
 ### Usuário Comum:
 - **Email**: `test@example.com`
-- **Senha**: `password123`
+- **Senha**: `[DEFINIR_SENHA_TESTE]`
 
 ### Administrador:
 - **Email**: `admin@codeburger.com`
-- **Senha**: `admin123`
+- **Senha**: `[DEFINIR_SENHA_ADMIN]`
 
 ### 📋 **Fluxo de Uso**
 1. Faça login na página inicial
@@ -192,5 +192,3 @@ A documentação Swagger está disponível em: http://localhost:5002/apidocs
 - `confirmado` - Pedido confirmado e em preparação
 - `entregue` - Pedido entregue ao cliente
 - `cancelado` - Pedido cancelado
-
-🐢🐢
