@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px); 
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite; 
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Blackvivid theme utilities */
+.bg-blackvivid { background-color: #0a0a0a; }
+.bg-blackvivid-light { background-color: #1a1a1a; }
+.text-blackvivid { color: #f0f0f0; }
+.text-blackvivid-muted { color: #a0a0a0; }
+.border-blackvivid { border-color: #333333; }
+
+/* Magic UI inspired effects */
+.magic-shadow {
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
+}
+
+.magic-glow {
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+}
+
+.magic-border {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.magic-text-glow {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+/* Smooth transitions */
+.transition-all {
+  transition: all 0.3s ease;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
+
